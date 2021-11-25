@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { PinabetesApp } from './PinabetesApp.js';
 import 'normalize.css';
 import './index.css';
+import 'animate.css';
 
 
 ReactDOM.render(

@@ -1,14 +1,15 @@
-
 :root {
     --red: #B80523;
-    --white: #D7D7D7;
+    --white: #cccccc;
     --bg: #EAEAEA;
-    --dark-red: #AB0621;
+    --dark-red: #861729;
     --gray: #424242;
+    --light-white: #f7f7f7;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
-    background-color: var(--bg)
+    background-color: var(--bg);
+    box-sizing: border-box;
 }

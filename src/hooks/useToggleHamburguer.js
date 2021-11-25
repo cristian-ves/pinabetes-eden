@@ -14,12 +14,12 @@ export const useToggleHamburguer = () => {
         timeLine.current = gsap.timeline()
             .to(navBarList.current, {
                 height: 'auto',
-                duration: 0.5
+                duration: 0.25
             })
             .to(selector('.navBar__item'),{
                 visibility: 'visible',
                 opacity: 1,
-                duration: 0.5
+                duration: 0.25
             })
     }, []);
     

@@ -1,0 +1,57 @@
+.contacto {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto__info {
+    text-align: center;
+    color: var(--gray);
+    margin: 0;
+    width: 80%;
+}
+
+.contacto > * {
+    margin-top: 1rem;
+}
+
+.contacto__boton {
+    align-items: center;
+    border-radius: 1.5rem;
+    display: flex;
+    font-size: 1.1rem;
+    padding: 0.3rem 1.2rem;
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+.contacto__boton i{
+    font-size: 2.1rem;
+    margin-left: 0.7rem;
+}    
+
+.contacto__boton--whatsapp {
+    background-color: #26c763;
+    color: var(--light-white);
+}
+
+.contacto__boton--telefono {
+    background-color: #6AA2FF;
+    color: #ECF3FF;
+    padding: 0.5rem 1.2rem;
+}
+
+.contacto__boton--telefono i {
+    font-size: 1.7rem;
+}
+
+.contacto__boton--ubicaciones {
+    background-color: var(--red);
+    color: var(--white);
+    padding: 0.5rem 1.2rem;
+    width: 40%;
+}
+
+.contacto__boton--ubicaciones i {
+    font-size: 1.7rem;
+}

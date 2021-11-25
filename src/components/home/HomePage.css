@@ -1,0 +1,51 @@
+.home {
+    color: var(--gray);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.home > * {
+    margin-top: 1rem;
+}
+
+.home:last-child {
+    margin-bottom: 1.5rem;
+}
+
+.home img{
+    width: 100%;
+}
+
+.home__slider:hover { 
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.home__slider{ 
+    border-radius: 4px; 
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    padding: 5px;
+}
+
+.home__article {
+    width: 80%;
+}
+
+.home__paragraph {
+    width: 100%;
+    text-align: center;
+}
+
+.boton-pinabetes {
+    background-color: var(--red);
+    border-radius: 1.5rem;
+    color: var(--white);
+    font-size: 1rem;
+    padding: 1rem 1.2rem;
+    text-decoration: none;
+}

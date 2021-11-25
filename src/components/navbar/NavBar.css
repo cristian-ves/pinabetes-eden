@@ -1,6 +1,14 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
 .navBar {
     display: flex;
     flex-direction: column;
+    position: unset;
+    top: 0;
 }
 
 .navBar__content {
@@ -22,7 +30,9 @@
     margin: 0.3rem;
 }
 
-.navBar__logo h3{
+.navBar__logo a{
+    text-decoration: none;
+    color: var(--white);
     /* align-self: flex-end; */
     font-size: 1.3rem;
     letter-spacing: 0.05rem;
@@ -48,18 +58,24 @@
 .navBar__item {
     opacity: 0;
     visibility: hidden;
-    margin: 0.5rem auto;
+    width: 100%;
+    text-align: center;
+    padding: 0.6rem 0;
     font-size: 1.1rem;
     text-decoration: none;
     color: var(--white);
 }
 
+.navBar__item--active{
+    color: var(--light-white);
+}
+
 .navBar__item:first-child {
-    margin-top: 1rem;
+    padding-top: 1rem;
 }
 
 .navBar__item:last-child {
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 .navBar__links--escritorio {
     display: none

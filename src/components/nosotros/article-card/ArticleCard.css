@@ -1,0 +1,23 @@
+.articleCard {
+    max-width: 80%;
+    padding: 0.8rem 1.3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.articleCard__titulo {
+    font-size: 1.2rem;
+    text-align: center;
+    width: 80%;
+    color: var(--gray);
+    font-weight: 400;
+}
+
+.articleCard__descripcion {
+    text-align: left;
+    color: var(--gray);
+    font-weight: 400;
+}
