@@ -13,11 +13,41 @@ export const NavBarContent = ({ toggleNavBarList }) => {
                 onClick= { toggleNavBarList }
             ></i>
             <ul className='navBar__links--escritorio'>
-                <NavLink to="/" className=''>Inicio</NavLink>
-                <NavLink to="/" className=''>Pinabetes</NavLink>
-                <NavLink to="/" className=''>Ubicaciones</NavLink>
-                <NavLink to="/" className=''>Contacto</NavLink>
-                <NavLink to="/" className=''>Nosotros</NavLink>
+                <NavLink 
+                    to="/" 
+                    // className='navBar__item--escritorio'
+                    className={ ({ isActive }) => 'navBar__item--escritorio' + ( isActive ? 'navBar__item--escritorio navBar__item--active' : '') }
+                >
+                    Inicio
+                </NavLink>
+                <NavLink 
+                    to="/pinabetes" 
+                    // className='navBar__item--escritorio'
+                    className={ ({ isActive }) => 'navBar__item--escritorio' + ( isActive ? 'navBar__item--escritorio navBar__item--active' : '') }
+                >
+                    Pinabetes
+                </NavLink>
+                <NavLink 
+                    to="/ubicaciones" 
+                    // className='navBar__item--escritorio'
+                    className={ ({ isActive }) => 'navBar__item--escritorio' + ( isActive ? 'navBar__item--escritorio navBar__item--active' : '') }
+                >
+                    Ubicaciones
+                </NavLink>
+                <NavLink 
+                    to="/contacto" 
+                    // className='navBar__item--escritorio'
+                    className={ ({ isActive }) => 'navBar__item--escritorio' + ( isActive ? 'navBar__item--escritorio navBar__item--active' : '') }
+                >
+                    Contacto
+                </NavLink>
+                <NavLink 
+                    to="/nosotros" 
+                    // className='navBar__item--escritorio'
+                    className={ ({ isActive }) => 'navBar__item--escritorio' + ( isActive ? 'navBar__item--escritorio navBar__item--active' : '') }
+                >
+                    Nosotros
+                </NavLink>
             </ul>
         </div>
     )

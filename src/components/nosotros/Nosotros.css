@@ -5,6 +5,19 @@
 }
 
 .nosotros > *:not(:first-child) {
-    
     margin: 1.2rem;
+}
+
+@media (min-width: 992px) { 
+
+    .nosotros {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+    }
+
+    .title--nosotros {
+        grid-column: 1 / 3;
+    }
+
 }

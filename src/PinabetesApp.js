@@ -1,4 +1,4 @@
-import { AppRouter } from "./routers/AppRouter.js"
+import { AppRouter } from "./routers/AppRouter.js";
 
 export const PinabetesApp = () => {
     return (

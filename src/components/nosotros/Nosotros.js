@@ -8,7 +8,10 @@ import './Nosotros.css'
 export const Nosotros = () => {
     return (
         <main className="nosotros animate__animated animate__fadeIn">
-            <Title title="Nosotros"/>
+            <Title 
+                title="Nosotros"
+                className="title--nosotros"
+            />
             {
                 ARTICLES().map(({ titulo, descripcion }, indice )=> {
                     return(

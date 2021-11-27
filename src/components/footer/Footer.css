@@ -1,25 +1,25 @@
 .footer {
     background-color: var(--red);
     margin: 2rem 0 0 0;
-    width: 100%;
+    max-width: 100%;
 }
 
 .footer__listas {
     display: flex;
     justify-content: space-between;
+    padding: 1.5rem;
 }
 
 .footer__lista {
     display: flex;
     flex-direction: column;
-    margin-left: 1.2rem;
     padding: 0;
 }
 
 .footer__lista > * {
     color: var(--white);
-    margin: 0.1rem;
     text-decoration: none;
+    margin: 0.25rem 0;
 }
 
 .footer__derechos {
@@ -27,8 +27,8 @@
     text-align: center;
     color: var(--white);
     margin: 0;
-    background-color: var(--dar-red);
-    padding: 1rem 0;
+    background-color: var(--dark-red);
+    padding: 1.2rem 0;
 }
 
 .footer__botones {
@@ -42,5 +42,18 @@
     color: var(--white);
     background-color: var(--red);
     padding: 0.5rem 0;
-    margin-right: 1rem;
+    font-size: 1rem;
+}
+.footer__boton i{
+    font-size: 1.4rem;
+}
+
+.navLink__active {
+    color: var(--light-white)
+}
+
+@media (min-width: 992px) { 
+
+
+    
 }

@@ -10,7 +10,6 @@ export const useToggleHamburguer = () => {
     const timeLine = useRef();
 
     useEffect(() => {
-        
         timeLine.current = gsap.timeline()
             .to(navBarList.current, {
                 height: 'auto',
@@ -20,7 +19,8 @@ export const useToggleHamburguer = () => {
                 visibility: 'visible',
                 opacity: 1,
                 duration: 0.25
-            })
+            });
+        // eslint-disable-next-line
     }, []);
     
     useEffect(() => {

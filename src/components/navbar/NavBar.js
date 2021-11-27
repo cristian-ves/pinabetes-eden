@@ -13,6 +13,7 @@ export const NavBar = () => {
                 <NavBarContent toggleNavBarList={ toggleNavBarList }/>
                 <NavBarList navBarList={ navBarList } toggleNavBarList={ toggleNavBarList }/>
                 <img className='navBar__luces' src='/assets/img/Luces.png' alt='Luces'/>
+                <img className='navBar__luces navBar__luces--escritorio' src='/assets/img/LucesEscritorio.png' alt='Luces Escritorio'/>
             </nav>
         </header>
     )

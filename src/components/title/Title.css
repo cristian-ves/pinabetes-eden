@@ -22,3 +22,11 @@
     width: 2.5rem !important;
     height: 2.5rem;
 }
+
+@media (min-width: 992px) { 
+
+    .title {
+        margin: 0;
+    }
+
+}

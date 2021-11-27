@@ -49,3 +49,29 @@
     padding: 1rem 1.2rem;
     text-decoration: none;
 }
+
+@media (min-width: 992px) { 
+
+    .home {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(auto-fill, 1fr);
+        justify-items: center;
+        margin: 1.5rem auto;
+    }
+
+    .boton-pinabetes  {
+        grid-row: 3 / 4;
+        place-self: start center;
+    }
+    
+    .home__slider {
+        grid-row: 2 / 4;
+    }
+    
+    .home__article {
+        grid-row: 2 / 3;
+        place-self: end center;
+    }
+}

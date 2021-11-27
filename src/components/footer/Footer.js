@@ -8,11 +8,11 @@ export const Footer = () => {
         <footer className="footer">
             <div className="footer__listas">
                 <ul className="footer__lista">
-                    <NavLink to="/" className=''>Inicio</NavLink>
-                    <NavLink to="/pinabetes" className=''>Pinabetes</NavLink>
-                    <NavLink to="/ubicaciones" className=''>Ubicaciones</NavLink>
-                    <NavLink to="/contacto" className=''>Contacto</NavLink>
-                    <NavLink to="/nosotros" className=''>Nosotros</NavLink>
+                    <NavLink to="/" className={ ({ isActive }) => ( isActive ? 'navLink__active' : '') }>Inicio</NavLink>
+                    <NavLink to="/pinabetes" className={ ({ isActive }) => ( isActive ? 'navLink__active' : '') }>Pinabetes</NavLink>
+                    <NavLink to="/ubicaciones" className={ ({ isActive }) => ( isActive ? 'navLink__active' : '') }>Ubicaciones</NavLink>
+                    <NavLink to="/contacto" className={ ({ isActive }) => ( isActive ? 'navLink__active' : '') }>Contacto</NavLink>
+                    <NavLink to="/nosotros" className={ ({ isActive }) => ( isActive ? 'navLink__active' : '') }>Nosotros</NavLink>
                 </ul>
                 <div className="footer__botones">
                     <a 
@@ -31,7 +31,7 @@ export const Footer = () => {
                         rel="noreferrer"
                     >
                         +502 42431770
-                        <i className="fa-brands fa-whatsapp"></i>
+                        <i className="fa-brands fa-whatsapp" style={{fontSize: '1.7rem'}}></i>
                     </a>
                 </div>
             </div>
