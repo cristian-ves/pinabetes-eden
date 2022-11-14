@@ -10,7 +10,7 @@ export const Pinabetes = () => {
 
     const [PINABETES_B, PINABETES_PLUS] = PINABETES_DATA();
 
-    const [selectedRadioButton, setSelectedRadioButton] = useState('B');
+    const [selectedRadioButton, setSelectedRadioButton] = useState('+');
 
 
     return (
@@ -29,8 +29,8 @@ export const Pinabetes = () => {
                 />
                 {
                     (selectedRadioButton === 'B') ?
-                        <p className='precios'>Los precios pueden ser de Q250.00 a Q500.00. Varían según la forma y tamaño del árbol.</p>:
-                        <p className='precios'>El precio es de Q100.00 por pie.</p>
+                        <p className='precios'>Los precios pueden ser de Q250.00 a Q500.00. Varían según la forma y tamaño del árbol. Los puedes encontrar en Quetzaltenango</p>:
+                        <p className='precios'>El precio es de Q100.00 por pie. Los puedes encontrar en la ciudad de Guatemala</p>
 
                 }
                 {

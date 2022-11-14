@@ -12,18 +12,18 @@ export const Ubicaciones = () => {
             </div>
             <div className="Ubicaciones__container--2">
                 <UbicacionesCard 
-                    path='./assets/img/xela.jpeg' 
-                    pathMaps='https://goo.gl/maps/vTGrF2My6hNXt2GNA'
-                    departamento='Quetzaltenango'
-                    municipio='Quetzaltenango'
-                    direccion='Plaza Ciani, 4a calle'
-                />
-                <UbicacionesCard 
                     path=''
                     pathMaps='https://goo.gl/maps/KkB6o2Ju1GLqGMXT9'
                     departamento='Guatemala'
                     municipio='Guatemala'
-                    direccion='??????????????'
+                    direccion='Mercado de artesanías'
+                />
+                <UbicacionesCard
+                    path='./assets/img/xela.jpeg'
+                    pathMaps='https://goo.gl/maps/vTGrF2My6hNXt2GNA'
+                    departamento='Quetzaltenango'
+                    municipio='Quetzaltenango'
+                    direccion='Plaza Ciani, 4a calle'
                 />
             </div>
         </main>

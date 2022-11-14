@@ -24,10 +24,10 @@ export const Card = ({ path, alt, calidad, selectedRadioButton, precio, tamaño}
             <div className="card__content">
                 <p>Calidad: { calidad }</p>
                 {
-                    ( selectedRadioButton === '+' && <p>Precio: { precio }</p> )
+                    ( selectedRadioButton === '+' && <p>Precio: Q{ precio }.00</p> )
                 }
                 {
-                    ( selectedRadioButton === '+' && <p>tamaño: { tamaño }</p> )
+                    ( selectedRadioButton === '+' && <p>tamaño: { tamaño } pies</p> )
                 }
             </div>
             {

@@ -1,10 +1,10 @@
 :root {
     --red: #B80523;
-    --white: #cccccc;
+    --white: #dadada;
     --bg: #EAEAEA;
     --dark-red: #a50923;
     --gray: #424242;
-    --light-white: #f7f7f7;
+    --light-white: #f3f3f3;
 }
 
 body {
@@ -12,4 +12,18 @@ body {
     font-weight: 100;
     background-color: var(--bg);
     box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+main {
+    flex: 1;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+
 }

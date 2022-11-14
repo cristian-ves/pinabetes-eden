@@ -27,11 +27,6 @@ export const PINABETES_DATA =  ()=>{
             },
             {
                 calidad: 'plus',
-                precio: 800,
-                tamaño: 8
-            },
-            {
-                calidad: 'plus',
                 precio: 900,
                 tamaño: 9
             },

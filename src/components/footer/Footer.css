@@ -6,6 +6,7 @@
 
 .footer__listas {
     display: flex;
+    gap: 1rem;
     justify-content: space-between;
     padding: 1.5rem;
 }
@@ -16,7 +17,7 @@
     padding: 0;
 }
 
-.footer__lista > * {
+.footer__lista>* {
     color: var(--white);
     text-decoration: none;
     margin: 0.25rem 0;
@@ -36,6 +37,7 @@
     align-items: flex-end;
     display: flex;
     justify-content: flex-end;
+    text-align: right;
 }
 
 .footer__boton {
@@ -44,7 +46,8 @@
     padding: 0.5rem 0;
     font-size: 1rem;
 }
-.footer__boton i{
+
+.footer__boton i {
     font-size: 1.4rem;
 }
 
@@ -52,8 +55,4 @@
     color: var(--light-white)
 }
 
-@media (min-width: 992px) { 
-
-
-    
-}
+@media (min-width: 992px) {}

@@ -16,7 +16,6 @@ export const Cards = ({ arreglo, selectedRadioButton }) => {
                     return (<Card
                         key={i+1}
                         path={ `./assets/img/${ ( tamaño ) ? calidad + tamaño : calidad + indice}.jpeg` }
-                        // path={ `./assets/img/${calidad + indice}.jpeg` }
                         alt={ `Pinabete ${ i + 1 }` }
                         calidad={ calidad }
                         precio={ precio }
