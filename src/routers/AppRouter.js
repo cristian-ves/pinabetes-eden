@@ -16,16 +16,17 @@ export const AppRouter = () => {
     return (
         <BrowserRouter>
             <div className='App'>
-                <NavBar/>
+                <NavBar />
                 <Routes>
-                    
-                    <Route path='/pinabetes' element={<Pinabetes />}/>
-                    <Route path='/ubicaciones' element={<Ubicaciones />}/>
-                    <Route path='/contacto' element={<Contacto />}/>
-                    <Route path='/nosotros' element={<Nosotros />}/>
-                    <Route index element={<HomePage />}/>
+
+                    <Route path='/pinabetes' element={<Pinabetes />} />
+                    <Route path='/ubicaciones' element={<Ubicaciones />} />
+                    <Route path='/contacto' element={<Contacto />} />
+                    <Route path='/nosotros' element={<Nosotros />} />
+                    <Route path='/' element={<HomePage />} />
+
                 </Routes>
-                <Footer/>
+                <Footer />
             </div>
         </BrowserRouter>
     )
