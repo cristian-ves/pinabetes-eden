@@ -24,22 +24,22 @@ export const Pinabetes = () => {
             <div className="pinabetes__container">
                 <h3 className='calidad'>Calidad</h3>
                 <RadioButton
-                    setSelectedRadioButton={ setSelectedRadioButton}
-                    selectedRadioButton={ selectedRadioButton }
+                    setSelectedRadioButton={setSelectedRadioButton}
+                    selectedRadioButton={selectedRadioButton}
                 />
                 {
                     (selectedRadioButton === 'B') ?
-                        <p className='precios'>Los precios pueden ser de Q250.00 a Q500.00. Varían según la forma y tamaño del árbol. Los puedes encontrar en Quetzaltenango</p>:
-                        <p className='precios'>El precio es de Q100.00 por pie. Los puedes encontrar en la ciudad de Guatemala</p>
+                        <p className='precios'>Los precios pueden ser de Q250.00 a Q500.00. Varían según la forma y tamaño del árbol. Los puedes encontrar en Quetzaltenango</p> :
+                        <p className='precios'>El precio es de Q115.00 por pie. Los puedes encontrar en la ciudad de Guatemala</p>
 
                 }
                 {
-                    ( selectedRadioButton === 'B' ) ?
-                        <Cards arreglo={ PINABETES_B } selectedRadioButton={ selectedRadioButton} />:
-                        <Cards arreglo={ PINABETES_PLUS } selectedRadioButton={ selectedRadioButton } />
+                    (selectedRadioButton === 'B') ?
+                        <Cards arreglo={PINABETES_B} selectedRadioButton={selectedRadioButton} /> :
+                        <Cards arreglo={PINABETES_PLUS} selectedRadioButton={selectedRadioButton} />
                 }
             </div>
-            
+
         </main>
     )
 }
