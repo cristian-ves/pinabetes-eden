@@ -102,9 +102,10 @@
     }
 
     .pinabetes__container {
-        overflow: scroll;
+        height: 700px;
+        margin-right: 2rem;
+        overflow-y: scroll;
         position: relative;
-        height: 500px;
         /* scroll */
     }
 
